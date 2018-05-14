@@ -13,7 +13,7 @@ function deepestChild(){
     const tree = document.querySelectorAll("#grand-node")[0]
     var child=tree.children[0]
     if (child == null){
-      console.log("why doesn't it have children?")
+      return tree
     }
   
     while(child.children[0] != null){
