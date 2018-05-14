@@ -9,18 +9,16 @@ function nestedTarget(){
 
 function increaseRankBy(n){
   const list = document.querySelectorAll(".ranked-list")
-      console.log(list)
-    console.log(list.children)
 
   var i
   for (i=0;i<list.length;i++){
     var current=list[i]
-    console.log(current.children)
     var j
     for(j=0;j<current.children.length;j++){
       current.children[j].innerHTML = parseInt(current.children[j].innerHTML) + n
     }
   }
+  
 }
 function deepestChild(){
     const tree = document.querySelectorAll("#grand-node")[0]
