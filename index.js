@@ -3,7 +3,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  const tree = document.querySelectorAll("")
+  const tree = document.querySelectorAll("body")
   console.log(tree)
   return tree
 }
