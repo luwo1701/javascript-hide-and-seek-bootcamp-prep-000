@@ -15,7 +15,7 @@ function deepestChild(){
     
     var child=tree.children
     console.log()
-    return child
+    return tree
   /*
     while(child.children[0] != null){
       console.log(children[0])
