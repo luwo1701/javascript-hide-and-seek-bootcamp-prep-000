@@ -4,8 +4,6 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   const tree = document.getElementById("nested").querySelector(".target")
-  //tree
-  //console.log(tree[0])
   return tree
 }
 
@@ -13,7 +11,6 @@ function increaseRankBy(n){
   const list = document.querySelectorAll(".ranked-list")
   var i
   for (i=0;i<list.length;i++){
-    
     var child=list.children
     console.log(child)
     var j
