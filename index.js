@@ -15,14 +15,14 @@ function deepestChild(){
     var child=tree.children[0]
     console.log(`child is ${child}`)
 
-    return child.children[0].children[0]
+    //return child.children[0].children[0]
     if (child == null){
       console.log("why doesn't it have children?")
     }
   
     while(child.children[0] != null){
-      console.log(children[0])
-      var child=tree.children[0]
+      //console.log(children[0])
+      var child=child.children[0]
     }
     return child
 }
