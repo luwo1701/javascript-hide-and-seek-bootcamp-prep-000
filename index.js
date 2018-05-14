@@ -3,10 +3,10 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  const tree = document.querySelectorAll("#nested")
+  const tree = document.querySelectorAll("#nested").querySelector(".target")
   //tree
   //console.log(tree[0])
-  return tree.querySelector('.target')
+  return tree
 }
 
 function deepestChild(){
