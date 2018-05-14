@@ -10,6 +10,6 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-    const tree = document.querySelectorAll("#nested")
+    const tree = document.querySelectorAll("#grand-node")
     
 }
