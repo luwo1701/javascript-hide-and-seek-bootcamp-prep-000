@@ -11,7 +11,10 @@ function nestedTarget(){
 
 function deepestChild(){
     const tree = document.querySelectorAll("#grand-node")
+    console.log("here i am")
+    
     var child=tree.children[0]
+    console.log(child)
     return child
   /*
     while(child.children[0] != null){
