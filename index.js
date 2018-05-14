@@ -9,6 +9,9 @@ function nestedTarget(){
   return tree
 }
 
+function increaseRankBy(n){
+  
+}
 function deepestChild(){
     const tree = document.querySelectorAll("#grand-node")[0]
     var child=tree.children[0]
