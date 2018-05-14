@@ -13,9 +13,9 @@ function deepestChild(){
     const tree = document.querySelectorAll("#grand-node")[0]
     console.log("here i am")
     var child=tree.children[0]
-          console.log(`child is ${child}`)
+    console.log(`child is ${child}`)
 
-    return child
+    return child.children[0]
     if (child == null){
       console.log("why doesn't it have children?")
     }
