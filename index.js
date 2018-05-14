@@ -4,6 +4,6 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   const tree = document.querySelectorAll("#nested")
-  console.log(tree)
+  console.log(tree[0])
   return tree
 }
