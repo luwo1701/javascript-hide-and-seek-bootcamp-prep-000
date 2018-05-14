@@ -6,7 +6,7 @@ function nestedTarget(){
   const tree = document.getElementById("nested").querySelector(".target")
   //tree
   //console.log(tree[0])
-  return tree[0]
+  return tree
 }
 
 function deepestChild(){
